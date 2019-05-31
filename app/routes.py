@@ -7,7 +7,7 @@ from app.models import User
 from flask_login import logout_user, login_required
 from werkzeug.urls import url_parse
 from datetime import datetime
-from app.email import send_password_reset_email
+# from app.email import send_password_reset_email
 
 
 @app.route('/', methods=['GET', 'POST'])
